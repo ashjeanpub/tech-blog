@@ -6,7 +6,6 @@
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ashjeanpub.github.io/tech-blog"/>
     <subtitle>My Site Blog</subtitle>
-    <icon>https://ashjeanpub.github.io/tech-blog/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[test post]]></title>
         <id>https://ashjeanpub.github.io/tech-blog/test-post</id>

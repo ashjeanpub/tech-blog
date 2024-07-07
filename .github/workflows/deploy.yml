@@ -2,9 +2,9 @@ name: Deploy to GitHub Pages
 
 on:
   pull_request:
-    branches: [master]
+    branches: [gh-pages]
   push:
-    branches: [master]
+    branches: [gh-pages]
 
 permissions:
   contents: write

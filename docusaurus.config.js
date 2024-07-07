@@ -9,8 +9,10 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
     title: 'My Site',
-    tagline: 'Dinosaurs are cool',
-    favicon: 'img/favicon.ico',
+    // tagline 사용하지 않음
+    // tagline: 'Dinosaurs are cool',
+    // favicon 사용하지 않음
+    // favicon: 'img/favicon.ico',
 
     // Set the production url of your site here
     url: 'https://ashjeanpub.github.io',
@@ -111,39 +113,56 @@ const config = {
                             },
                         ],
                     },
+                    // Community 바 사용하지 않음
+                    // {
+                    //     title: 'Community',
+                    //     items: [
+                    //         {
+                    //             label: 'Stack Overflow',
+                    //             href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                    //         },
+                    //         {
+                    //             label: 'Discord',
+                    //             href: 'https://discordapp.com/invite/docusaurus',
+                    //         },
+                    //         {
+                    //             label: 'Twitter',
+                    //             href: 'https://twitter.com/docusaurus',
+                    //         },
+                    //     ],
+                    // },
+                    // More 바 사용하지 않음
+                    // {
+                    //     title: 'More',
+                    //     items: [
+                    //         // {
+                    //         //     label: 'Blog',
+                    //         //     // to: '/blog',
+                    //         //     to: '/',
+                    //         // },
+                    //         {
+                    //             label: 'GitHub',
+                    //             href: 'https://github.com/facebook/docusaurus',
+                    //         },
+                    //     ],
+                    // },
+                    // Members 바 추가
                     {
-                        title: 'Community',
+                        title: 'Members',
                         items: [
+                            // {
+                            //     label: 'Blog',
+                            //     // to: '/blog',
+                            //     to: '/',
+                            // },
                             {
-                                label: 'Stack Overflow',
-                                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-                            },
-                            {
-                                label: 'Discord',
-                                href: 'https://discordapp.com/invite/docusaurus',
-                            },
-                            {
-                                label: 'Twitter',
-                                href: 'https://twitter.com/docusaurus',
-                            },
-                        ],
-                    },
-                    {
-                        title: 'More',
-                        items: [
-                            {
-                                label: 'Blog',
-                                // to: '/blog',
-                                to: '/',
-                            },
-                            {
-                                label: 'GitHub',
-                                href: 'https://github.com/facebook/docusaurus',
+                                label: 'Gerome Yoo',
+                                href: 'https://github.com/ashjean7805',
                             },
                         ],
                     },
                 ],
-                copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+                copyright: `Copyright © ${new Date().getFullYear()} Our Project, Inc. Built with Docusaurus.`,
             },
             prism: {
                 theme: prismThemes.github,

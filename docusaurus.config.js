@@ -33,15 +33,15 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   // 원본 설정
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
-  },
-  // 변경 설정
-  //   i18n: {
-  //   defaultLocale: 'ko',
-  //   locales: ['ko'],
+  // i18n: {
+  //   defaultLocale: 'en',
+  //   locales: ['en'],
   // },
+  // 변경 설정
+    i18n: {
+    defaultLocale: 'ko',
+    locales: ['ko'],
+  },
 
 
   presets: [
@@ -53,7 +53,6 @@ const config = {
           sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-                    routeBasePath:'/',
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },

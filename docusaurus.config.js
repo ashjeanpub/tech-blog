@@ -84,7 +84,8 @@ const config = {
             // image: 'img/docusaurus-social-card.jpg',
             navbar: {
                 // 상단 제목
-                title: 'My Site',
+                // the odds 를 붙여서 이름으로 삼음
+                title: 'Theodds',
                 // 로고 사용하지 않음
                 // logo: {
                 //     alt: 'My Site Logo',
@@ -167,7 +168,7 @@ const config = {
                         ],
                     },
                 ],
-                copyright: `Copyright © ${new Date().getFullYear()} Our Project, Inc. Built with Docusaurus.`,
+                copyright: `Copyright © ${new Date().getFullYear()} Theodds Project, Inc. Built with Docusaurus.`,
             },
             prism: {
                 theme: prismThemes.github,

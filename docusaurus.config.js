@@ -55,6 +55,8 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          // 추가 설정
+          routeBasePath: '/', // Serve the docs at the site's root
         },
         blog: {
           // routeBasePath: '/', // Serve the blog at the site's root

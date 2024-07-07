@@ -59,7 +59,7 @@ const config = {
           // routeBasePath: '/', // Serve the docs at the site's root
         },
         blog: {
-          routeBasePath: '/', // Serve the blog at the site's root
+          // routeBasePath: '/', // Serve the blog at the site's root
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.

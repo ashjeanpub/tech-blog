@@ -104,7 +104,13 @@ const config = {
                     //     label: 'Tutorial',
                     // },
                     {
-                      to : '/docs', label: 'Data', position: 'left'
+                      to : '/docs/Data', label: 'Data', position: 'left'
+                    },
+                    {
+                      to : '/docs/CS', label: 'CS', position: 'left'
+                    },
+                    {
+                      to : '/docs/ETC', label: 'ETC', position: 'left'
                     },
                     {
                         href: 'https://github.com/ashjeanpub/tech-blog',

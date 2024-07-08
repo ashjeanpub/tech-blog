@@ -97,20 +97,23 @@ const config = {
                     {
                         to: '/', label: 'Blog', position: 'left'
                     },
-                    // {
-                    //     type: 'docSidebar',
-                    //     sidebarId: 'tutorialSidebar',
-                    //     position: 'left',
-                    //     label: 'Tutorial',
-                    // },
                     {
-                      to : '/docs/Data', label: 'Data', position: 'left'
+                        type: 'docSidebar',
+                        sidebarId: 'DataSidebar',
+                        position: 'left',
+                        label: 'Data',
                     },
-                    {
-                      to : '/docs/CS', label: 'CS', position: 'left'
+                     {
+                        type: 'docSidebar',
+                        sidebarId: 'CSSidebar',
+                        position: 'left',
+                        label: 'CS',
                     },
-                    {
-                      to : '/docs/ETC', label: 'ETC', position: 'left'
+                     {
+                        type: 'docSidebar',
+                        sidebarId: 'ETCSidebar',
+                        position: 'left',
+                        label: 'ETC',
                     },
                     {
                         href: 'https://github.com/ashjeanpub/tech-blog',

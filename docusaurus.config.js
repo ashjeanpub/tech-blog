@@ -95,7 +95,7 @@ const config = {
 
                     // {to: '/blog', label: 'Blog', position: 'left'},
                     {
-                        to: '/blog', label: 'Blog', position: 'left'
+                        to: '/', label: 'Blog', position: 'left'
                     },
                     {
                         type: 'docSidebar',
@@ -129,11 +129,20 @@ const config = {
                         title: 'Docs',
                         items: [
                             {
-                                label: 'Tutorial',
-                                to: '/docs/intro',
+                                label: 'Data',
+                                to: '/docs/Data/intro',
+                            },
+                                                        {
+                                label: 'CS',
+                                to: '/docs/CS/intro',
+                            },
+                                                        {
+                                label: 'ETC',
+                                to: '/docs/ETC/intro',
                             },
                         ],
                     },
+
                     // Community 바 사용하지 않음
                     // {
                     //     title: 'Community',

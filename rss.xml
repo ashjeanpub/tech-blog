@@ -16,7 +16,7 @@
             <description><![CDATA[test one two check]]></description>
             <content:encoded><![CDATA[<p>test one two check</p>]]></content:encoded>
             <category>Hello</category>
-            <category>world</category>
+            <category>World</category>
         </item>
         <item>
             <title><![CDATA[Welcome]]></title>

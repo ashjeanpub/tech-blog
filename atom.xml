@@ -18,7 +18,7 @@
             <uri>https://github.com/ashjean7805</uri>
         </author>
         <category label="Hello" term="Hello"/>
-        <category label="world" term="world"/>
+        <category label="World" term="World"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>

@@ -14,3 +14,7 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+world:
+  label: World
+  permalink: /world
+  descriptionL: World tag description

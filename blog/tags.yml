@@ -17,4 +17,4 @@ hola:
 world:
   label: World
   permalink: /world
-  descriptionL: World tag description
+  description: World tag description

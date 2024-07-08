@@ -94,12 +94,17 @@ const config = {
                 items: [
 
                     // {to: '/blog', label: 'Blog', position: 'left'},
-                    {to: '/', label: 'Blog', position: 'left'},
                     {
-                        type: 'docSidebar',
-                        sidebarId: 'tutorialSidebar',
-                        position: 'left',
-                        label: 'Tutorial',
+                        to: '/', label: 'Blog', position: 'left'
+                    },
+                    // {
+                    //     type: 'docSidebar',
+                    //     sidebarId: 'tutorialSidebar',
+                    //     position: 'left',
+                    //     label: 'Tutorial',
+                    // },
+                    {
+                      to : '/docs', label: 'Data', position: 'left'
                     },
                     {
                         href: 'https://github.com/ashjeanpub/tech-blog',

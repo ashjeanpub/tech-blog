@@ -95,7 +95,7 @@ const config = {
 
                     // {to: '/blog', label: 'Blog', position: 'left'},
                     {
-                        to: '/', label: 'Blog', position: 'left'
+                        to: '/blog', label: 'Blog', position: 'left'
                     },
                     {
                         type: 'docSidebar',

@@ -44,7 +44,7 @@ const config = {
     // 변경 설정
     i18n: {
         defaultLocale: 'ko',
-        locales: ['ko'],
+        locales: ['ko','en'],
     },
 
 

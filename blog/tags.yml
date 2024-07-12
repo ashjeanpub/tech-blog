@@ -13,8 +13,12 @@ docusaurus:
 hola:
   label: Hola
   permalink: /hola
-  description: Hola tag description
+  description: Hola means hello in Spanish
 world:
   label: World
   permalink: /world
   description: World tag description
+mundo:
+  label: Mundo
+  permalink: /mundo
+  description: Mundo means world in Spanish

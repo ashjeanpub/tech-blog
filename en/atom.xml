@@ -8,8 +8,8 @@
     <subtitle>My Site Blog</subtitle>
     <entry>
         <title type="html"><![CDATA[test post]]></title>
-        <id>https://ashjeanpub.github.io/tech-blog/en/test-post</id>
-        <link href="https://ashjeanpub.github.io/tech-blog/en/test-post"/>
+        <id>https://ashjeanpub.github.io/tech-blog/en/test-post-jul-12</id>
+        <link href="https://ashjeanpub.github.io/tech-blog/en/test-post-jul-12"/>
         <updated>2024-07-12T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Text test one two three]]></summary>
         <content type="html"><![CDATA[<p>Text test one two three</p>]]></content>
@@ -26,7 +26,7 @@
         <link href="https://ashjeanpub.github.io/tech-blog/en/test-post"/>
         <updated>2024-07-07T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[test one two check]]></summary>
-        <content type="html"><![CDATA[<p>Text test one two three</p>]]></content>
+        <content type="html"><![CDATA[<p>test one two check</p>]]></content>
         <author>
             <name>Gerome Yoo</name>
             <uri>https://github.com/ashjean7805</uri>

@@ -9,14 +9,14 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[test post]]></title>
+            <title><![CDATA[Post para probar]]></title>
             <link>https://ashjeanpub.github.io/tech-blog/en/test-post-jul-12</link>
             <guid>https://ashjeanpub.github.io/tech-blog/en/test-post-jul-12</guid>
             <pubDate>Fri, 12 Jul 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[Text test one two three]]></description>
-            <content:encoded><![CDATA[<p>Text test one two three</p>]]></content:encoded>
-            <category>Hello</category>
-            <category>World</category>
+            <description><![CDATA[Prueba uno dos tres]]></description>
+            <content:encoded><![CDATA[<p>Prueba uno dos tres</p>]]></content:encoded>
+            <category>Hola</category>
+            <category>Mundo</category>
         </item>
         <item>
             <title><![CDATA[test post]]></title>

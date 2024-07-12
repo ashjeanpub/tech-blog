@@ -7,18 +7,18 @@
     <link rel="alternate" href="https://ashjeanpub.github.io/tech-blog"/>
     <subtitle>My Site Blog</subtitle>
     <entry>
-        <title type="html"><![CDATA[test post]]></title>
+        <title type="html"><![CDATA[Post para probar]]></title>
         <id>https://ashjeanpub.github.io/tech-blog/test-post-jul-12</id>
         <link href="https://ashjeanpub.github.io/tech-blog/test-post-jul-12"/>
         <updated>2024-07-12T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Text test one two three]]></summary>
-        <content type="html"><![CDATA[<p>Text test one two three</p>]]></content>
+        <summary type="html"><![CDATA[Prueba uno dos tres]]></summary>
+        <content type="html"><![CDATA[<p>Prueba uno dos tres</p>]]></content>
         <author>
             <name>Allonsi</name>
             <uri>https://github.com/allonsi</uri>
         </author>
-        <category label="Hello" term="Hello"/>
-        <category label="World" term="World"/>
+        <category label="Hola" term="Hola"/>
+        <category label="Mundo" term="Mundo"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[test post]]></title>

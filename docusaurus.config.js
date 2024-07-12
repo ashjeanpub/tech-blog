@@ -189,6 +189,10 @@ const config = {
                                 label: 'Gerome Yoo',
                                 href: 'https://github.com/ashjean7805',
                             },
+                                                        {
+                                label: 'Allonsi',
+                                href: 'https://github.com/allonsi',
+                            },
                         ],
                     },
                 ],

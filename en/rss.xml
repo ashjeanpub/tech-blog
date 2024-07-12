@@ -4,7 +4,7 @@
         <title>My Site Blog</title>
         <link>https://ashjeanpub.github.io/tech-blog/en</link>
         <description>My Site Blog</description>
-        <lastBuildDate>Sun, 07 Jul 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 12 Jul 2024 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,9 +12,19 @@
             <title><![CDATA[test post]]></title>
             <link>https://ashjeanpub.github.io/tech-blog/en/test-post</link>
             <guid>https://ashjeanpub.github.io/tech-blog/en/test-post</guid>
+            <pubDate>Fri, 12 Jul 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[Text test one two three]]></description>
+            <content:encoded><![CDATA[<p>Text test one two three</p>]]></content:encoded>
+            <category>Hello</category>
+            <category>World</category>
+        </item>
+        <item>
+            <title><![CDATA[test post]]></title>
+            <link>https://ashjeanpub.github.io/tech-blog/en/test-post</link>
+            <guid>https://ashjeanpub.github.io/tech-blog/en/test-post</guid>
             <pubDate>Sun, 07 Jul 2024 00:00:00 GMT</pubDate>
             <description><![CDATA[test one two check]]></description>
-            <content:encoded><![CDATA[<p>test one two check</p>]]></content:encoded>
+            <content:encoded><![CDATA[<p>Text test one two three</p>]]></content:encoded>
             <category>Hello</category>
             <category>World</category>
         </item>

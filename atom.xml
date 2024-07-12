@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ashjeanpub.github.io/tech-blog</id>
     <title>My Site Blog</title>
-    <updated>2024-07-07T00:00:00.000Z</updated>
+    <updated>2024-07-12T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ashjeanpub.github.io/tech-blog"/>
     <subtitle>My Site Blog</subtitle>
@@ -10,9 +10,23 @@
         <title type="html"><![CDATA[test post]]></title>
         <id>https://ashjeanpub.github.io/tech-blog/test-post</id>
         <link href="https://ashjeanpub.github.io/tech-blog/test-post"/>
+        <updated>2024-07-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Text test one two three]]></summary>
+        <content type="html"><![CDATA[<p>Text test one two three</p>]]></content>
+        <author>
+            <name>Jaeyoung Lee</name>
+            <uri>https://github.com/allonsi</uri>
+        </author>
+        <category label="Hello" term="Hello"/>
+        <category label="World" term="World"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[test post]]></title>
+        <id>https://ashjeanpub.github.io/tech-blog/test-post</id>
+        <link href="https://ashjeanpub.github.io/tech-blog/test-post"/>
         <updated>2024-07-07T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[test one two check]]></summary>
-        <content type="html"><![CDATA[<p>test one two check</p>]]></content>
+        <content type="html"><![CDATA[<p>Text test one two three</p>]]></content>
         <author>
             <name>Gerome Yoo</name>
             <uri>https://github.com/ashjean7805</uri>

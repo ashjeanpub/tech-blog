@@ -14,7 +14,7 @@
         <summary type="html"><![CDATA[Text test one two three]]></summary>
         <content type="html"><![CDATA[<p>Text test one two three</p>]]></content>
         <author>
-            <name>Jaeyoung Lee</name>
+            <name>Allonsi</name>
             <uri>https://github.com/allonsi</uri>
         </author>
         <category label="Hello" term="Hello"/>

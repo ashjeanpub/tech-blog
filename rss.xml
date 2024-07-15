@@ -9,7 +9,7 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ko</language>
         <item>
-            <title><![CDATA[Post para probar]]></title>
+            <title><![CDATA[Hola Mundo]]></title>
             <link>https://ashjeanpub.github.io/tech-blog/test-post-jul-12</link>
             <guid>https://ashjeanpub.github.io/tech-blog/test-post-jul-12</guid>
             <pubDate>Fri, 12 Jul 2024 00:00:00 GMT</pubDate>
@@ -19,12 +19,14 @@
             <category>Mundo</category>
         </item>
         <item>
-            <title><![CDATA[test post]]></title>
-            <link>https://ashjeanpub.github.io/tech-blog/test-post</link>
-            <guid>https://ashjeanpub.github.io/tech-blog/test-post</guid>
-            <pubDate>Sun, 07 Jul 2024 00:00:00 GMT</pubDate>
-            <description><![CDATA[test one two check]]></description>
-            <content:encoded><![CDATA[<p>test one two check</p>]]></content:encoded>
+            <title><![CDATA[Hello World]]></title>
+            <link>https://ashjeanpub.github.io/tech-blog/hello-world</link>
+            <guid>https://ashjeanpub.github.io/tech-blog/hello-world</guid>
+            <pubDate>Thu, 04 Jul 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[첫 블로그...는 아니고 몇 번째 블로그를 시작한 것인지 잘 모르겠다. 다만 일을 해나가면서 무언가 기록을 남겨야 나중에 내가 편해진다는 것을 깨달았다.]]></description>
+            <content:encoded><![CDATA[<p>첫 블로그...는 아니고 몇 번째 블로그를 시작한 것인지 잘 모르겠다. 다만 일을 해나가면서 무언가 기록을 남겨야 나중에 내가 편해진다는 것을 깨달았다.</p>
+<h1>Hello Docusaurus!</h1>
+<p>도큐사우루스를 고른 이유는 간단해서다. 나는 프론트엔드를 알지도 못하고</p>]]></content:encoded>
             <category>Hello</category>
             <category>World</category>
         </item>

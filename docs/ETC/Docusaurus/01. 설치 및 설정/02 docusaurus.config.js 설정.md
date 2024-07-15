@@ -25,7 +25,6 @@ yarn init docusaurus@latest my-website classic
   - 프로젝트 디렉토리에 `package.json` 파일 생성
     - Node.js 프로젝트의 핵심 구성 파일
     - 프로젝트 메타데이터 및 종속성(dependenceis) 정보 포함
-  - `yarn create` 도 쓴다고 하는데 무슨 차이인지는 잘 모르겠음
 - docusaurus@latest
   - 도큐사우루스 프로젝트 시작
     - @latest : 제일 최신 버전으로 시작

@@ -1,6 +1,6 @@
 ---
 slug: test-post-jul-12
-title: Post para probar
+title: Hola Mundo
 authors: allonsi
 tags: [hola, mundo]
 

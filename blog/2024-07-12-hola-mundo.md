@@ -6,4 +6,4 @@ tags: [hola, mundo]
 
 ---
 
-Prueba uno dos tres
+Hi! Glad to join this blog. My posts will include statistical methods and models.  

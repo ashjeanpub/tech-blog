@@ -1,6 +1,6 @@
 ---
 slug: test-post-jul-12
-title: Hola Mundo
+title: Allons-y
 authors: allonsi
 tags: [hola, mundo]
 

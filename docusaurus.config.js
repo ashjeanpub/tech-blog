@@ -5,6 +5,10 @@
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
 import {themes as prismThemes} from 'prism-react-renderer';
+// math-equation
+import remarkMath from 'remark-math';
+import rehypeKatex from 'rehype-katex';
+
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -44,7 +48,7 @@ const config = {
     // 변경 설정
     i18n: {
         defaultLocale: 'ko',
-        locales: ['ko','en'],
+        locales: ['ko', 'en'],
     },
 
 
@@ -60,6 +64,8 @@ const config = {
                     routeBasePath: '/', // Serve the docs at the site's root
                     // editUrl:
                     //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+                    remarkPlugins: [remarkMath],
+                    rehypePlugins: [rehypeKatex],
                 },
                 docs: {
                     sidebarPath: './sidebars.js',
@@ -68,6 +74,8 @@ const config = {
                     // editUrl:
                     //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
                     // 추가 설정
+                    remarkPlugins: [remarkMath],
+                    rehypePlugins: [rehypeKatex],
                 },
                 theme: {
                     customCss: './src/css/custom.css',
@@ -75,7 +83,15 @@ const config = {
             }),
         ],
     ],
-
+    stylesheets: [
+        {
+            href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
+            type: 'text/css',
+            integrity:
+                'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
+            crossorigin: 'anonymous',
+        },
+    ],
     themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
         ({
@@ -103,13 +119,13 @@ const config = {
                         position: 'left',
                         label: 'Data',
                     },
-                     {
+                    {
                         type: 'docSidebar',
                         sidebarId: 'CSSidebar',
                         position: 'left',
                         label: 'CS',
                     },
-                     {
+                    {
                         type: 'docSidebar',
                         sidebarId: 'ETCSidebar',
                         position: 'left',
@@ -132,11 +148,11 @@ const config = {
                                 label: 'Data',
                                 to: '/docs/Data/intro',
                             },
-                                                        {
+                            {
                                 label: 'CS',
                                 to: '/docs/CS/intro',
                             },
-                                                        {
+                            {
                                 label: 'ETC',
                                 to: '/docs/ETC/intro',
                             },
@@ -189,7 +205,7 @@ const config = {
                                 label: 'Gerome Yoo',
                                 href: 'https://github.com/ashjean7805',
                             },
-                                                        {
+                            {
                                 label: 'Allonsi',
                                 href: 'https://github.com/allonsi',
                             },
@@ -205,9 +221,24 @@ const config = {
         }),
 };
 
+// 기본 세팅
 export default config;
 
 
+export default {
+    title: 'Docusaurus',
+    tagline: 'Build optimized websites quickly, focus on your content',
+    presets: [
+        [
+            '@docusaurus/preset-classic',
+            {
+                docs: {
+                    path: 'docs',
+                    remarkPlugins: [remarkMath],
+                    rehypePlugins: [rehypeKatex],
+                },
+            },
+        ],
+    ],
 
-
-
+};

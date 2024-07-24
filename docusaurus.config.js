@@ -223,22 +223,3 @@ const config = {
 
 // 기본 세팅
 export default config;
-
-
-export default {
-    title: 'Docusaurus',
-    tagline: 'Build optimized websites quickly, focus on your content',
-    presets: [
-        [
-            '@docusaurus/preset-classic',
-            {
-                docs: {
-                    path: 'docs',
-                    remarkPlugins: [remarkMath],
-                    rehypePlugins: [rehypeKatex],
-                },
-            },
-        ],
-    ],
-
-};

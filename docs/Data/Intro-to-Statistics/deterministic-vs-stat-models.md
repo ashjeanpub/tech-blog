@@ -30,7 +30,7 @@ In the real world, **variability** exists.
 
 ## Statistical Models
 
-- \textcolor{red}{Probabilistic/stochastic/statistical modeling} are used to help us describe and understand **variability**. 
+- **Probabilistic/stochastic/statistical modeling** are used to help us describe and understand **variability**. 
     - By variability, successive observations of a system or phenomenon do not produce exactly the same result. 
 
 - Statistical models introduce an additional term into the mathematical model to account for variability.

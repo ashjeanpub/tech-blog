@@ -1,6 +1,6 @@
 {
-  "label": "Time-Series",
-  "position": 6,
+  "label": "Regression",
+  "position": 4,
   "link": {
     "type": "generated-index"
   }

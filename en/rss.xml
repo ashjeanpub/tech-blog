@@ -4,10 +4,103 @@
         <title>My Site Blog</title>
         <link>https://ashjeanpub.github.io/tech-blog/en</link>
         <description>My Site Blog</description>
-        <lastBuildDate>Fri, 12 Jul 2024 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 09 Aug 2024 14:52:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[VPS에 관한 간단한 설명]]></title>
+            <link>https://ashjeanpub.github.io/tech-blog/en/vps-explained</link>
+            <guid>https://ashjeanpub.github.io/tech-blog/en/vps-explained</guid>
+            <pubDate>Fri, 09 Aug 2024 14:52:23 GMT</pubDate>
+            <description><![CDATA[Definition]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="definition">Definition<a class="hash-link" aria-label="Direct link to Definition" title="Direct link to Definition" href="https://ashjeanpub.github.io/tech-blog/en/vps-explained#definition">​</a></h2>
+<blockquote>
+<p>하나의 물리 서버를 <strong>예약된 리소스에 기반한 가상서버</strong>로 나누어 독립적으로 운영하는 것</p>
+</blockquote>
+<ul>
+<li>멀티테넌트(Multi-tenant) 호스팅의 일종</li>
+<li>공유 호스팅 환경에서 전용 서버 호스팅 환경의 시뮬레이션</li>
+<li>개념도<!-- -->
+<ol>
+<li>물리 서버</li>
+<li>가상화<!-- -->
+<ul>
+<li>가상 레이어(하이퍼바이저) 설치<!-- -->
+<ul>
+<li>가상 구획으로 분할</li>
+<li>구획 별 리소스 예약</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>가상 서버<!-- -->
+<ul>
+<li>각 서버 별 독립성 확보</li>
+<li>자체 OS 및 소프트웨어 실행</li>
+</ul>
+</li>
+</ol>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="호스팅-비교">호스팅 비교<a class="hash-link" aria-label="Direct link to 호스팅 비교" title="Direct link to 호스팅 비교" href="https://ashjeanpub.github.io/tech-blog/en/vps-explained#%ED%98%B8%EC%8A%A4%ED%8C%85-%EB%B9%84%EA%B5%90">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="공유-호스팅">공유 호스팅<a class="hash-link" aria-label="Direct link to 공유 호스팅" title="Direct link to 공유 호스팅" href="https://ashjeanpub.github.io/tech-blog/en/vps-explained#%EA%B3%B5%EC%9C%A0-%ED%98%B8%EC%8A%A4%ED%8C%85">​</a></h3>
+<ul>
+<li>단일 물리 서버 사용</li>
+<li>사용자의 리소스 전체 공유<!-- -->
+<ul>
+<li>리소스 할당 없음</li>
+</ul>
+</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="noisy-neighbor-현상">noisy neighbor 현상<a class="hash-link" aria-label="Direct link to noisy neighbor 현상" title="Direct link to noisy neighbor 현상" href="https://ashjeanpub.github.io/tech-blog/en/vps-explained#noisy-neighbor-%ED%98%84%EC%83%81">​</a></h4>
+<ul>
+<li>특정 테넌트의 애플리케이션이 예기치 않게 할당된 리소스 이상을 소비하여 다른 테넌트에 성능 문제를 야기하는 것</li>
+<li>공유자원의 경합 상태</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="전용-호스팅">전용 호스팅<a class="hash-link" aria-label="Direct link to 전용 호스팅" title="Direct link to 전용 호스팅" href="https://ashjeanpub.github.io/tech-blog/en/vps-explained#%EC%A0%84%EC%9A%A9-%ED%98%B8%EC%8A%A4%ED%8C%85">​</a></h3>
+<ul>
+<li>단일 물리 서버(전용 서버) 사용</li>
+<li>확장 어려움<!-- -->
+<ul>
+<li>증설시 제공업체가 물리적 하드웨어 리소스를 새로 구성 및 프로비저닝해야 하기 때문에 확장이 번거로움</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="vps-호스팅">VPS 호스팅<a class="hash-link" aria-label="Direct link to VPS 호스팅" title="Direct link to VPS 호스팅" href="https://ashjeanpub.github.io/tech-blog/en/vps-explained#vps-%ED%98%B8%EC%8A%A4%ED%8C%85">​</a></h3>
+<ul>
+<li>공유 호스팅과 전용 호스팅의 중간 형태</li>
+<li>단일 물리 서버 사용</li>
+<li>사용자별 할당된 리소스 예약</li>
+<li>확장의 상대적 용이성<!-- -->
+<ul>
+<li>물리서버 리소스 범위 내 스케일링이 용이함</li>
+<li>리소스 범위 밖이면 서버 신규 구성 및 프로비저닝이 번거로운 것은 마찬가지</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="클라우드">클라우드<a class="hash-link" aria-label="Direct link to 클라우드" title="Direct link to 클라우드" href="https://ashjeanpub.github.io/tech-blog/en/vps-explained#%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C">​</a></h3>
+<p>가상 서버 뿐 아니라 서비스 구현에 필요한 모든 자원(플랫폼, 소프트웨어)의 임대하는 것</p>
+<ul>
+<li>사용자별 할당된 리소스 예약</li>
+<li>서버 클러스터 사용<!-- -->
+<ul>
+<li>단일 물리 서버 사용하지 않음</li>
+<li>재부팅시 현재 가상머신이 다른 물리머신에서 작동할 수 있음</li>
+</ul>
+</li>
+<li>인프라 등등이 서비스 업체의 환경에 종속</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="reference">Reference<a class="hash-link" aria-label="Direct link to Reference" title="Direct link to Reference" href="https://ashjeanpub.github.io/tech-blog/en/vps-explained#reference">​</a></h2>
+<ul>
+<li><a href="https://cloud.google.com/learn/what-is-a-virtual-private-server?hl=ko" target="_blank" rel="noopener noreferrer">https://cloud.google.com/learn/what-is-a-virtual-private-server?hl=ko</a></li>
+<li><a href="https://www.ibm.com/kr-ko/topics/vps" target="_blank" rel="noopener noreferrer">https://www.ibm.com/kr-ko/topics/vps</a></li>
+<li><a href="https://aws.amazon.com/ko/what-is/vps/" target="_blank" rel="noopener noreferrer">https://aws.amazon.com/ko/what-is/vps/</a></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="회고">회고<a class="hash-link" aria-label="Direct link to 회고" title="Direct link to 회고" href="https://ashjeanpub.github.io/tech-blog/en/vps-explained#%ED%9A%8C%EA%B3%A0">​</a></h2>
+<p>간단하게 VPS에 조사할 일이 있어 함께 조사해 두었다. 아직 따로 Document를 작성할 필요까진 느끼지 못하여, 블로그란에 작성해 두는 것도 있다. 나중에 필요하면 옮기게 될 거 같다.</p>]]></content:encoded>
+            <category>computer science</category>
+        </item>
         <item>
             <title><![CDATA[Allons-y]]></title>
             <link>https://ashjeanpub.github.io/tech-blog/en/test-post-jul-12</link>

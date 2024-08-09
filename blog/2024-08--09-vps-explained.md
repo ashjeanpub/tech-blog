@@ -1,7 +1,7 @@
 ---
 slug: vps-explained
 title: VPS에 관한 간단한 설명
-authors: gerome yoo
+authors: gerome
 tags: [cs]
 ---
 # VPS(Virtual Private Server, 가상 사설 서버)

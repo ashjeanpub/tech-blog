@@ -22,3 +22,7 @@ mundo:
   label: Mundo
   permalink: /mundo
   description: Mundo means world in Spanish
+cs:
+  label: computer science
+  permalink: /computer science
+  description: Computer Science related Subject

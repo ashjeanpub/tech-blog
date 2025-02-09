@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://ashjeanpub.github.io/tech-blog/en/blog-hobby</id>
+    <title>My Site Blog</title>
+    <updated>2019-05-28T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://ashjeanpub.github.io/tech-blog/en/blog-hobby"/>
+    <subtitle>My Site Blog</subtitle>
+    <entry>
+        <title type="html"><![CDATA[First Blog Post]]></title>
+        <id>https://ashjeanpub.github.io/tech-blog/en/blog-hobby/first-blog-post</id>
+        <link href="https://ashjeanpub.github.io/tech-blog/en/blog-hobby/first-blog-post"/>
+        <updated>2019-05-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet]]></summary>
+        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
+        <author>
+            <name>gerome</name>
+            <uri>https://github.com/wgao19</uri>
+        </author>
+        <category label="Hola" term="Hola"/>
+        <category label="Docusaurus" term="Docusaurus"/>
+    </entry>
+</feed>

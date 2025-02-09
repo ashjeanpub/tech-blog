@@ -110,9 +110,17 @@ const config = {
                 items: [
 
                     // {to: '/blog', label: 'Blog', position: 'left'},
+                    // 2025-02-10 테스트
+                    // {
+                    //     to: '/', label: 'Blog', position: 'left'
+                    // },
                     {
-                        to: '/', label: 'Blog', position: 'left'
+                        to: 'blog-tech', label: 'Blog', position: 'left'
                     },
+                    {
+                        to: 'blog-hobby', label: 'Blog2-test', position: 'left'
+                    },
+
                     {
                         type: 'docSidebar',
                         sidebarId: 'DataSidebar',

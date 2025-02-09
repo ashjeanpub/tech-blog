@@ -115,10 +115,10 @@ const config = {
                     //     to: '/', label: 'Blog', position: 'left'
                     // },
                     {
-                        to: 'blog-tech', label: 'Blog', position: 'left'
+                        to: '/blog-tech', label: 'Blog', position: 'left'
                     },
                     {
-                        to: 'blog-hobby', label: 'Blog2-test', position: 'left'
+                        to: '/blog-hobby', label: 'Blog2-test', position: 'left'
                     },
 
                     {

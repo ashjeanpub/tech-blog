@@ -83,6 +83,28 @@ const config = {
             }),
         ],
     ],
+    // 2번째 블로그를 추가하기 위한 플러그인
+    plugins: [
+        [
+            '@docusaurus/plugin-content-blog',
+            {
+                /**
+                 * Required for any multi-instance plugin
+                 */
+                id: 'blog-hobby',
+                /**
+                 * URL route for the blog section of your site.
+                 * *DO NOT* include a trailing slash.
+                 */
+                routeBasePath: 'blog-hobby',
+                /**
+                 * Path to data on filesystem relative to site dir.
+                 */
+                path: './blog-hobby',
+            },
+        ],
+    ],
+    //
     stylesheets: [
         {
             href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
@@ -115,10 +137,10 @@ const config = {
                     //     to: '/', label: 'Blog', position: 'left'
                     // },
                     {
-                        to: '/blog-tech', label: 'Blog', position: 'left'
+                        to: '/', label: 'Blog', position: 'left'
                     },
                     {
-                        to: '/blog-hobby', label: 'Blog2-test', position: 'left'
+                        to: '/blog-hobby', label: 'Blog-hobby', position: 'left'
                     },
 
                     {

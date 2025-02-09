@@ -1,0 +1,28 @@
+facebook:
+  label: Facebook
+  permalink: /facebook
+  description: Facebook tag description
+hello:
+  label: Hello
+  permalink: /hello
+  description: Hello tag description
+docusaurus:
+  label: Docusaurus
+  permalink: /docusaurus
+  description: Docusaurus tag description
+hola:
+  label: Hola
+  permalink: /hola
+  description: Hola means hello in Spanish
+world:
+  label: World
+  permalink: /world
+  description: World tag description
+mundo:
+  label: Mundo
+  permalink: /mundo
+  description: Mundo means world in Spanish
+cs:
+  label: computer science
+  permalink: /computer science
+  description: Computer Science related Subject

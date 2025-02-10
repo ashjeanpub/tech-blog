@@ -255,5 +255,6 @@ const config = {
     }
 ;
 
+
 // 기본 세팅
 export default config;

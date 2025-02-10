@@ -117,9 +117,6 @@ const config = {
         themeConfig:
         /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
             ({
-                toc: {
-                    component: require.resolve('./src/theme/TOC'), // TOC 컴포넌트 경로
-                },
                 // Replace with your project's social card
                 // 이미지 사용하지 않음
                 // image: 'img/docusaurus-social-card.jpg',

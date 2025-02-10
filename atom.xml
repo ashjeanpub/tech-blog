@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ashjeanpub.github.io/tech-blog</id>
     <title>My Site Blog</title>
-    <updated>2024-08-09T14:52:23.000Z</updated>
+    <updated>2024-08-09T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ashjeanpub.github.io/tech-blog"/>
     <subtitle>My Site Blog</subtitle>
@@ -10,9 +10,9 @@
         <title type="html"><![CDATA[VPS에 관한 간단한 설명]]></title>
         <id>https://ashjeanpub.github.io/tech-blog/vps-explained</id>
         <link href="https://ashjeanpub.github.io/tech-blog/vps-explained"/>
-        <updated>2024-08-09T14:52:23.000Z</updated>
+        <updated>2024-08-09T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Definition]]></summary>
-        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="definition">Definition<a class="hash-link" aria-label="Definition에 대한 직접 링크" title="Definition에 대한 직접 링크" href="https://ashjeanpub.github.io/tech-blog/vps-explained#definition">​</a></h2>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="definition">Definition<a href="https://ashjeanpub.github.io/tech-blog/vps-explained#definition" class="hash-link" aria-label="Definition에 대한 직접 링크" title="Definition에 대한 직접 링크">​</a></h2>
 <blockquote>
 <p>하나의 물리 서버를 <strong>예약된 리소스에 기반한 가상서버</strong>로 나누어 독립적으로 운영하는 것</p>
 </blockquote>
@@ -41,8 +41,8 @@
 </ol>
 </li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="호스팅-비교">호스팅 비교<a class="hash-link" aria-label="호스팅 비교에 대한 직접 링크" title="호스팅 비교에 대한 직접 링크" href="https://ashjeanpub.github.io/tech-blog/vps-explained#%ED%98%B8%EC%8A%A4%ED%8C%85-%EB%B9%84%EA%B5%90">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="공유-호스팅">공유 호스팅<a class="hash-link" aria-label="공유 호스팅에 대한 직접 링크" title="공유 호스팅에 대한 직접 링크" href="https://ashjeanpub.github.io/tech-blog/vps-explained#%EA%B3%B5%EC%9C%A0-%ED%98%B8%EC%8A%A4%ED%8C%85">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="호스팅-비교">호스팅 비교<a href="https://ashjeanpub.github.io/tech-blog/vps-explained#%ED%98%B8%EC%8A%A4%ED%8C%85-%EB%B9%84%EA%B5%90" class="hash-link" aria-label="호스팅 비교에 대한 직접 링크" title="호스팅 비교에 대한 직접 링크">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="공유-호스팅">공유 호스팅<a href="https://ashjeanpub.github.io/tech-blog/vps-explained#%EA%B3%B5%EC%9C%A0-%ED%98%B8%EF%BF%BD%EC%8A%A4%ED%8C%85" class="hash-link" aria-label="공유 호스팅에 대한 직접 링크" title="공유 호스팅에 대한 직접 링크">​</a></h3>
 <ul>
 <li>단일 물리 서버 사용</li>
 <li>사용자의 리소스 전체 공유<!-- -->
@@ -51,12 +51,12 @@
 </ul>
 </li>
 </ul>
-<h4 class="anchor anchorWithStickyNavbar_LWe7" id="noisy-neighbor-현상">noisy neighbor 현상<a class="hash-link" aria-label="noisy neighbor 현상에 대한 직접 링크" title="noisy neighbor 현상에 대한 직접 링크" href="https://ashjeanpub.github.io/tech-blog/vps-explained#noisy-neighbor-%ED%98%84%EC%83%81">​</a></h4>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="noisy-neighbor-현상">noisy neighbor 현상<a href="https://ashjeanpub.github.io/tech-blog/vps-explained#noisy-neighbor-%ED%98%84%EC%83%81" class="hash-link" aria-label="noisy neighbor 현상에 대한 직접 링크" title="noisy neighbor 현상에 대한 직접 링크">​</a></h4>
 <ul>
 <li>특정 테넌트의 애플리케이션이 예기치 않게 할당된 리소스 이상을 소비하여 다른 테넌트에 성능 문제를 야기하는 것</li>
 <li>공유자원의 경합 상태</li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="전용-호스팅">전용 호스팅<a class="hash-link" aria-label="전용 호스팅에 대한 직접 링크" title="전용 호스팅에 대한 직접 링크" href="https://ashjeanpub.github.io/tech-blog/vps-explained#%EC%A0%84%EC%9A%A9-%ED%98%B8%EC%8A%A4%ED%8C%85">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="전용-호스팅">전용 호스팅<a href="https://ashjeanpub.github.io/tech-blog/vps-explained#%EC%A0%84%EC%9A%A9-%ED%98%B8%EC%8A%A4%ED%8C%85" class="hash-link" aria-label="전용 호스팅에 대한 직접 링크" title="전용 호스팅에 대한 직접 링크">​</a></h3>
 <ul>
 <li>단일 물리 서버(전용 서버) 사용</li>
 <li>확장 어려움<!-- -->
@@ -65,7 +65,7 @@
 </ul>
 </li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="vps-호스팅">VPS 호스팅<a class="hash-link" aria-label="VPS 호스팅에 대한 직접 링크" title="VPS 호스팅에 대한 직접 링크" href="https://ashjeanpub.github.io/tech-blog/vps-explained#vps-%ED%98%B8%EC%8A%A4%ED%8C%85">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="vps-호스팅">VPS 호스팅<a href="https://ashjeanpub.github.io/tech-blog/vps-explained#vps-%ED%98%B8%EC%8A%A4%ED%8C%85" class="hash-link" aria-label="VPS 호스팅에 대한 직접 링크" title="VPS 호스팅에 대한 직접 링크">​</a></h3>
 <ul>
 <li>공유 호스팅과 전용 호스팅의 중간 형태</li>
 <li>단일 물리 서버 사용</li>
@@ -77,7 +77,7 @@
 </ul>
 </li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="클라우드">클라우드<a class="hash-link" aria-label="클라우드에 대한 직접 링크" title="클라우드에 대한 직접 링크" href="https://ashjeanpub.github.io/tech-blog/vps-explained#%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="클라우드">클라우드<a href="https://ashjeanpub.github.io/tech-blog/vps-explained#%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C" class="hash-link" aria-label="�클라우드에 대한 직접 링크" title="클라우드에 대한 직접 링크">​</a></h3>
 <p>가상 서버 뿐 아니라 서비스 구현에 필요한 모든 자원(플랫폼, 소프트웨어)의 임대하는 것</p>
 <ul>
 <li>사용자별 할당된 리소스 예약</li>
@@ -89,13 +89,13 @@
 </li>
 <li>인프라 등등이 서비스 업체의 환경에 종속</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="reference">Reference<a class="hash-link" aria-label="Reference에 대한 직접 링크" title="Reference에 대한 직접 링크" href="https://ashjeanpub.github.io/tech-blog/vps-explained#reference">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="reference">Reference<a href="https://ashjeanpub.github.io/tech-blog/vps-explained#reference" class="hash-link" aria-label="Reference에 대한 직접 링크" title="Reference에 대한 직접 링크">​</a></h2>
 <ul>
 <li><a href="https://cloud.google.com/learn/what-is-a-virtual-private-server?hl=ko" target="_blank" rel="noopener noreferrer">https://cloud.google.com/learn/what-is-a-virtual-private-server?hl=ko</a></li>
 <li><a href="https://www.ibm.com/kr-ko/topics/vps" target="_blank" rel="noopener noreferrer">https://www.ibm.com/kr-ko/topics/vps</a></li>
 <li><a href="https://aws.amazon.com/ko/what-is/vps/" target="_blank" rel="noopener noreferrer">https://aws.amazon.com/ko/what-is/vps/</a></li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="회고">회고<a class="hash-link" aria-label="회고에 대한 직접 링크" title="회고에 대한 직접 링크" href="https://ashjeanpub.github.io/tech-blog/vps-explained#%ED%9A%8C%EA%B3%A0">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="회고">회고<a href="https://ashjeanpub.github.io/tech-blog/vps-explained#%ED%9A%8C%EA%B3%A0" class="hash-link" aria-label="회고에 대한 직접 링크" title="회고에 대한 직접 링크">​</a></h2>
 <p>간단하게 VPS에 조사할 일이 있어 함께 조사해 두었다. 아직 따로 Document를 작성할 필요까진 느끼지 못하여, 블로그란에 작성해 두는 것도 있다. 나중에 필요하면 옮기게 될 거 같다.</p>]]></content>
         <author>
             <name>Gerome Yoo</name>

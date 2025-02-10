@@ -8,6 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 // math-equation
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
+// 커스텀 플러그인 추가
+import rehypeKatexHeading from './plugins/rehypeKatexHeading';
 
 
 /** @type {import('@docusaurus/types').Config} */
@@ -65,7 +67,8 @@ const config = {
                     // editUrl:
                     //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
                     remarkPlugins: [remarkMath],
-                    rehypePlugins: [rehypeKatex],
+                    // 커스텀 플러그인 추가
+                    rehypePlugins: [rehypeKatex, rehypeKatexHeading],
                 },
                 docs: {
                     sidebarPath: './sidebars.js',
@@ -75,7 +78,8 @@ const config = {
                     //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
                     // 추가 설정
                     remarkPlugins: [remarkMath],
-                    rehypePlugins: [rehypeKatex],
+                    // 커스텀 플러그인 추가
+                    rehypePlugins: [rehypeKatex, rehypeKatexHeading],
                 },
                 theme: {
                     customCss: './src/css/custom.css',

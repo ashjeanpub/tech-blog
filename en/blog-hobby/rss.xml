@@ -4,10 +4,24 @@
         <title>My Site Blog</title>
         <link>https://ashjeanpub.github.io/tech-blog/en/blog-hobby</link>
         <description>My Site Blog</description>
-        <lastBuildDate>Tue, 28 May 2019 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 05 Mar 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[와인 꿀팁 - DOC/DOCG]]></title>
+            <link>https://ashjeanpub.github.io/tech-blog/en/blog-hobby/wine-post-mar-5</link>
+            <guid>https://ashjeanpub.github.io/tech-blog/en/blog-hobby/wine-post-mar-5</guid>
+            <pubDate>Wed, 05 Mar 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[다른 나라의 와인과는 달리 이탈리아에서 생산되는 와인에는 DOC 혹은 DOCG라 쓰인 특별한 라벨이 붙어있다.]]></description>
+            <content:encoded><![CDATA[<p>다른 나라의 와인과는 달리 이탈리아에서 생산되는 와인에는 DOC 혹은 DOCG라 쓰인 특별한 라벨이 붙어있다.</p>
+<ul>
+<li>DOCG가 진짜 좋은 이탈리아 와인</li>
+<li>DOC가 그에 버금가는 이탈리아 와인</li>
+</ul>]]></content:encoded>
+            <category>와인</category>
+            <category>이탈리아</category>
+        </item>
         <item>
             <title><![CDATA[First Blog Post]]></title>
             <link>https://ashjeanpub.github.io/tech-blog/en/blog-hobby/first-blog-post</link>

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunktech_blog=self.webpackChunktech_blog||[]).push([[7579],{6855:o=>{o.exports=JSON.parse('{"tags":[{"label":"Hola","permalink":"/tech-blog/blog-hobby/tags/hola","description":"Hola means hello in Spanish","count":1},{"label":"Docusaurus","permalink":"/tech-blog/blog-hobby/tags/docusaurus","description":"Docusaurus tag description","count":1}]}')}}]);

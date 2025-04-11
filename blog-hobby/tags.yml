@@ -26,13 +26,10 @@ cs:
   label: computer science
   permalink: /computer science
   description: Computer Science related Subject
-wine:
+
+와인:
   label: Wine
   permalink: /wine
-  description: Wine Science related Subject
-# 와인:
-#   label: Wine
-#   permalink: /wine
 #   description: Wine Science related Subject
 
 

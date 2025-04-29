@@ -2,10 +2,28 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ashjeanpub.github.io/tech-blog</id>
     <title>My Site Blog</title>
-    <updated>2024-08-09T00:00:00.000Z</updated>
+    <updated>2025-04-29T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ashjeanpub.github.io/tech-blog"/>
     <subtitle>My Site Blog</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Variational Inference vs MCMC]]></title>
+        <id>https://ashjeanpub.github.io/tech-blog/vi-vs-mcmc</id>
+        <link href="https://ashjeanpub.github.io/tech-blog/vi-vs-mcmc"/>
+        <updated>2025-04-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[모수(parameter)들의 사후분포(posterior distribution)를 우리가 아는 분포로 나타낼 수 없는 경우, 기본적으로 MCMC가 쓰인다. 하지만 MCMC는 Sampling에 기반한 방법이기에 종종 천문학적인 계산 시간이 필요한 경우가 많다. 이와 같은 경우, Variational Inference가 MCMC의 대안으로 쓰인다. Sampling을 이용하는 대신, 사후분포 추정을 Loss function optimization 문제로 풀어내는 것이 Variational Inference의 주된 아이디어이다. Optimization은 Sampling에 비해 계산 시간이 굉장히 짧다는 장점이 있다. 하지만 MCMC에 비해서 사후분포 추정 정확도는 상대적으로 떨어진다는 단점이 있다.]]></summary>
+        <content type="html"><![CDATA[<p>모수(parameter)들의 사후분포(posterior distribution)를 우리가 아는 분포로 나타낼 수 없는 경우, 기본적으로 MCMC가 쓰인다. 하지만 MCMC는 Sampling에 기반한 방법이기에 종종 천문학적인 계산 시간이 필요한 경우가 많다. 이와 같은 경우, Variational Inference가 MCMC의 대안으로 쓰인다. Sampling을 이용하는 대신, 사후분포 추정을 Loss function optimization 문제로 풀어내는 것이 Variational Inference의 주된 아이디어이다. Optimization은 Sampling에 비해 계산 시간이 굉장히 짧다는 장점이 있다. 하지만 MCMC에 비해서 사후분포 추정 정확도는 상대적으로 떨어진다는 단점이 있다.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="reference">Reference<a href="https://ashjeanpub.github.io/tech-blog/vi-vs-mcmc#reference" class="hash-link" aria-label="Reference에 대한 직접 링크" title="Reference에 대한 직접 링크">​</a></h2>
+<ul>
+<li><a href="https://arxiv.org/pdf/1601.00670" target="_blank" rel="noopener noreferrer">https://arxiv.org/pdf/1601.00670</a></li>
+</ul>]]></content>
+        <author>
+            <name>Allonsi</name>
+            <uri>https://github.com/allonsi</uri>
+        </author>
+        <category label="Statistics" term="Statistics"/>
+        <category label="Bayesian" term="Bayesian"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[VPS에 관한 간단한 설명]]></title>
         <id>https://ashjeanpub.github.io/tech-blog/vps-explained</id>
@@ -41,8 +59,8 @@
 </ol>
 </li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="호스팅-비교">호스팅 비교<a href="https://ashjeanpub.github.io/tech-blog/vps-explained#%ED%98%B8%EC%8A%A4%ED%8C%85-%EB%B9%84%EA%B5%90" class="hash-link" aria-label="호스팅 비교에 대한 직접 링크" title="호스팅 비교에 대한 직접 링크">​</a></h2>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="공유-호스팅">공유 호스팅<a href="https://ashjeanpub.github.io/tech-blog/vps-explained#%EA%B3%B5%EC%9C%A0-%ED%98%B8%EF%BF%BD%EC%8A%A4%ED%8C%85" class="hash-link" aria-label="공유 호스팅에 대한 직접 링크" title="공유 호스팅에 대한 직접 링크">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="호스팅-비교">호스팅 비교<a href="https://ashjeanpub.github.io/tech-blog/vps-explained#%ED%98%B8%EC%8A%A4%ED%8C%85-%EB%B9%84%EA%B5%90" class="hash-link" aria-label="호스팅 비교에 대한 직접 링크" title="호스팅 비교에 대한 직��접 링크">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="공유-호스팅">공유 호스팅<a href="https://ashjeanpub.github.io/tech-blog/vps-explained#%EA%B3%B5%EC%9C%A0-%ED%98%B8%EC%8A%A4%ED%8C%85" class="hash-link" aria-label="공유 호스팅에 대한 직접 링크" title="공유 호스팅에 대한 직접 링크">​</a></h3>
 <ul>
 <li>단일 물리 서버 사용</li>
 <li>사용자의 리소스 전체 공유<!-- -->
@@ -77,7 +95,7 @@
 </ul>
 </li>
 </ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="클라우드">클라우드<a href="https://ashjeanpub.github.io/tech-blog/vps-explained#%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C" class="hash-link" aria-label="�클라우드에 대한 직접 링크" title="클라우드에 대한 직접 링크">​</a></h3>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="클라우드">클라우드<a href="https://ashjeanpub.github.io/tech-blog/vps-explained#%ED%81%B4%EB%9D%BC%EC%9A%B0%EB%93%9C" class="hash-link" aria-label="클라우드에 대한 직접 링크" title="클라우드에 대한 직접 링크">​</a></h3>
 <p>가상 서버 뿐 아니라 서비스 구현에 필요한 모든 자원(플랫폼, 소프트웨어)의 임대하는 것</p>
 <ul>
 <li>사용자별 할당된 리소스 예약</li>

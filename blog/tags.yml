@@ -28,7 +28,7 @@ cs:
   description: Computer Science related Subject
 stat:
   label: Statistics
-  permalink: /Statistics
+  permalink: /statistics
   description: Statistics related Subject
 bayes:
   label: Bayesian

@@ -1,7 +1,7 @@
 ---
 slug: vi-vs-mcmc
 title: Variational Inference vs MCMC
-authors: Allonsi
+authors: allonsi
 tags: [stat, bayes]
 
 ---

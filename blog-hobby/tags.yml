@@ -37,3 +37,22 @@ cs:
   permalink: /이탈리아
   # description: 
 
+택견:
+  label: 택견
+  permalink: /택견
+  description: Takkyeon related Subject
+
+옛법:
+  label: 옛법
+  permalink: /옛법
+  description: Violated skill set of Takkyeon 
+
+결련:
+  label: 결련
+  permalink: /결련
+  description: Basic skill set of Takkyeon 
+
+비각:
+  label: 비각
+  permalink: /비각
+  description: Advanced skill set of Takkyeon 

@@ -4,10 +4,24 @@
         <title>My Site Blog</title>
         <link>https://ashjeanpub.github.io/tech-blog/en/blog-hobby</link>
         <description>My Site Blog</description>
-        <lastBuildDate>Wed, 05 Mar 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 14 Jun 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[택견의 간단한 기술체계]]></title>
+            <link>https://ashjeanpub.github.io/tech-blog/en/blog-hobby/takkeon-post-jun-14</link>
+            <guid>https://ashjeanpub.github.io/tech-blog/en/blog-hobby/takkeon-post-jun-14</guid>
+            <pubDate>Sat, 14 Jun 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[택견은 서울 사대문 안에서 주로 행해지던 전통 무예이다. 전통 무예로서 오늘날까지 명맥이 이어질 수 있는 이유를 하나 꼽자면 간단한 기술 체계를 들 것이다. 결련택견협회 기준으로 택견의 기술 체계는 크게 세 가지로 구분할 수 있다. 결련택견과정, 비각택견과정, 그리고 옛법택견과정이다.]]></description>
+            <content:encoded><![CDATA[<p>택견은 서울 사대문 안에서 주로 행해지던 전통 무예이다. 전통 무예로서 오늘날까지 명맥이 이어질 수 있는 이유를 하나 꼽자면 간단한 기술 체계를 들 것이다. 결련택견협회 기준으로 택견의 기술 체계는 크게 세 가지로 구분할 수 있다. 결련택견과정, 비각택견과정, 그리고 옛법택견과정이다.</p>
+<p>결련-비각 과정의 경우 기술 난도에 따른 구분이며, 이 두 과정의 기술체계는 실제 택견 경기에서 허용되는 동작들로 구성되어있다. 다시 말해, 결련 과정에 해당하는 기술체계는 기본 동작들, 비각 과정은 더 많은 수련이 필요한 기술들로 채워진 것이다. 결련 과정에서는 "품밟기"라고 하는 기본적인 택견 스텝부터 시작해, 간단한 발질과 태질(던지기) 기술들로 구성되어있다. 비각 과정에서는 날치기를 비롯한 화려한 동작들로 구성되어있다.</p>
+<p>옛법택견은 상대방에게 상해를 입히기 쉬운 동작들로 구성되어있다. 따라서 택견 경기에서는 허용되지 않는 반칙 기술 모음이다. 옛법이라는 이름을 살펴보자면, 스포츠로 발전하기 전, 무술로써의 택견이 발전할 때 수련을 하던 동작들인 것이다. 안경씌우기, 도끼질을 비롯한 손질들이 대표적이다.</p>]]></content:encoded>
+            <category>택견</category>
+            <category>옛법</category>
+            <category>결련</category>
+            <category>비각</category>
+        </item>
         <item>
             <title><![CDATA[와인 꿀팁 - DOC/DOCG]]></title>
             <link>https://ashjeanpub.github.io/tech-blog/en/blog-hobby/wine-post-mar-5</link>

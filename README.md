@@ -1,5 +1,7 @@
 # Website
 
+https://ashjeanpub.github.io/tech-blog/
+
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
 ### Installation
